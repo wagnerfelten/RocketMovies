@@ -1,11 +1,16 @@
 import styled from "styled-components";
 
-export const Container = styled.input`
-  background-color: #262529;
+export const Container = styled.div`
+  
   color: #948f99;
 
-  border-radius: 10px;
+  > input {
+    width: 630px;
+    height: 56px;
+    border-radius: 10px;
+    background-color: #262529;
 
-  width: 630px;
-  height: 56px;
+    padding-left: 34px;
+    color: white;
+  }
 `;
