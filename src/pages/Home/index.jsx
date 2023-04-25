@@ -1,4 +1,4 @@
-import {Container, Main, Section} from "./style"
+import {Container, Main, Section, ContentNotes} from "./style"
 import Header from "../../components/Header";
 import Button from "../../components/Button";
 import NewNotes from "../../components/NewNotas";
@@ -16,7 +16,12 @@ function Home() {
             <Button  title="Adicionar filme" />
          </Section>
 
+        <ContentNotes>
         <NewNotes title="Jovens Titans"/>
+
+        <NewNotes title="Tudo mundo em panico"/>
+
+        </ContentNotes>
       </Main>
     </Container>
   );
