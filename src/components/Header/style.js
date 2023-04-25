@@ -5,24 +5,41 @@ export const Container = styled.header`
   align-items: center;
   justify-content: space-between;
 
+  padding: 15px;
+
   width: 100%;
   height: 170px;
 
+  border-bottom: #948F99 solid 2px;
+
+  >h1{
   color: #FF859B;
+  }
 `;
 
 export const Login = styled.div`
   display: flex;
-  color: white;
+  gap: 15px;
     
-    >h2{
-        color: white;
-    }
+ 
 
     > img {
       width: 70px;
       height: 70px;
 
       border-radius: 50%;
+    }
+`;
+
+export const Content = styled.div `
+   
+   
+   >h2{
+        color: white;
+    }
+
+    > p{
+      color: #948F99;
+      margin-left: 180px;
     }
 `;

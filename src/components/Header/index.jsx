@@ -1,4 +1,4 @@
-import {Container, Login} from "./style";
+import {Container, Login, Content} from "./style";
 import Input from "../Input";
 
 export default function Header() {
@@ -9,12 +9,12 @@ export default function Header() {
       <Input placeholder="Pesquisa pelo título"/>
 
         <Login>
-            <div>
+            <Content>
                 <h2>
                     Wagner Rodrigues
                 </h2>
                 <p>sair</p>
-            </div>
+            </Content>
 
             <img src="https://github.com/wagnerfelten.png" />
         </Login>
