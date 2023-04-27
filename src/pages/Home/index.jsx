@@ -1,8 +1,7 @@
-import {Container, Main, Section, ContentNotes} from "./style"
+import { Container, Main, Section, ContentNotes } from "./style";
 import Header from "../../components/Header";
 import Button from "../../components/Button";
 import NewNotes from "../../components/NewNotas";
-
 
 function Home() {
   return (
@@ -10,18 +9,17 @@ function Home() {
       <Header />
 
       <Main>
-         <Section> 
-            <h1>Meus Filmes</h1>
-            
-            <Button  title="Adicionar filme" />
-         </Section>
+        <Section>
+          <h1>Meus Filmes</h1>
+
+          <Button title="Adicionar filme" />
+        </Section>
 
         <ContentNotes>
-        <NewNotes title="Jovens Titans"/>
-
-        <NewNotes title="Tudo mundo em panico"/>
-
+          <NewNotes title="Jovens Titans" />
+          <NewNotes title="Jovens Titans" />
         </ContentNotes>
+        
       </Main>
     </Container>
   );

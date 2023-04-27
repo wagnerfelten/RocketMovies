@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div `
     background-color: #000000;
     width: 100%;
-    
+   
 `;
 
 export const Main = styled.main `
@@ -13,6 +13,7 @@ export const Main = styled.main `
     
     display: flex;
     flex-direction: column;
+
 `;
 
 export const Section = styled.section `
@@ -34,4 +35,6 @@ export const ContentNotes = styled.div `
     display: flex;
     flex-direction: column;
     gap: 24px;
+
+   
 `;
