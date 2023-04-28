@@ -8,18 +8,17 @@ export const Main = styled.main`
   width: 900px;
   margin: 0 auto;
   margin-top: 48px;
+`;
 
-  > button {
-    background-color: black;
-    border: none;
-    color: #ff859b;
-    width: 100px;
+export const Link = styled.a`
+  color: #ff859b;
+  width: 100px;
 
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
 `;
 
 export const Section = styled.section`
@@ -61,7 +60,7 @@ export const Data = styled.div`
     gap: 4px;
 
     > svg {
-      color: #FF859b;
+      color: #ff859b;
     }
   }
 `;

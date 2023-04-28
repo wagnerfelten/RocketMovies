@@ -1,4 +1,4 @@
-import { Container, Main, Section, Data, Tags, Content } from "./style";
+import { Container, Main, Section, Data, Tags, Content, Link } from "./style";
 import { BsArrowLeft } from "react-icons/bs";
 import { AiFillStar } from "react-icons/ai";
 import { GoClock } from "react-icons/go";
@@ -15,10 +15,10 @@ export default function MoviePreview() {
       <Header />
 
       <Main>
-        <button>
+        <Link to="/">
           <BsArrowLeft />
           Voltar
-        </button>
+        </Link>
 
         <Section>
           <Content>
