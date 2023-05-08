@@ -5,7 +5,7 @@ export const Container = styled.div`
   color: #948f99;
 
   > input {
-    width: 630px;
+    width: 430px;
     height: 56px;
     border-radius: 10px;
     background-color: #262529;
