@@ -1,9 +1,10 @@
-import {Container} from "./style";
+import { Container } from "./style";
 
-export default function Input({Icon, ...rest}){
-    return(
+export default function Input({ icon: Icon, ...rest }) {
+  return (
     <Container>
-        <input {...rest} />
+      {Icon && <Icon size={20} />}
+      <input {...rest} />
     </Container>
-    );
+  );
 }
