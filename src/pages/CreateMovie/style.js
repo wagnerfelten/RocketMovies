@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div``;
 
 export const Main = styled.main`
-  width: 900px;
+  width: 950px;
   margin: 0 25%;
   margin-top: 48px;
   position: relative;
@@ -16,6 +16,7 @@ export const Main = styled.main`
     display: flex;
     gap: 40px;
     margin-top: 40px;
+    margin-left: 10px;
   }
 
   > textarea {
@@ -23,7 +24,7 @@ export const Main = styled.main`
     padding: 20px;
     width: 900px;
     height: 358px;
-
+    margin-left: 10px;
     margin-top: 48px;
     border-radius: 10px;
 

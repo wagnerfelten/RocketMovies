@@ -5,12 +5,12 @@ export const Container = styled.div`
   color: #948f99;
 
   > input {
-    width: 430px;
+    width: 425px;
     height: 56px;
     border-radius: 10px;
     background-color: #262529;
-
-    padding-left: 34px;
+    border: none;
+    padding-left: 24px;
     color: white;
   }
 `;
