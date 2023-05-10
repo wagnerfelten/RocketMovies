@@ -1,10 +1,14 @@
 import {Container, Main, Content, Form } from "./style";
-import {Cinema} from "../../assets/img//cinema.png";
+import { BiLockAlt, BiEnvelope} from "react-icons/bi";
+
+import Cinema from "../../assets/img/Cinema.png";
+import Input from "../../components/Input";
+import Button from "../../components/Button";
  
 export default function Login(){
     return(
         <Container>
-            <img src={Cinema} />
+            <img src={Cinema} alt="Cinema"/>
 
             <Main>
                 <Content>
@@ -15,13 +19,13 @@ export default function Login(){
                 <Form>
                     <h2>Faça seu login</h2>
 
-                    <Input placerholder="E-mail" />
-                    <Input placerholder="Senha" />
+                    <Input placeholder="E-mail" icon={BiEnvelope}/>
+                    <Input placeholder="Senha" icon={BiLockAlt}/>
 
                     <Button title="Entrar" />
                 </Form>
 
-                <Link to="/">Criar Conta</Link>
+                <a src="/">Criar Conta</a>
             </Main>
         </Container>
     );
