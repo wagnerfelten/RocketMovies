@@ -1,4 +1,6 @@
-import {Container, Login, Content} from "./style";
+import { Container, Login, Content } from "./style";
+import { Link } from "react-router-dom";
+
 import Input from "../Input";
 
 export default function Header() {
@@ -6,19 +8,17 @@ export default function Header() {
     <Container>
       <h1>RocketMovies</h1>
 
-      <Input placeholder="Pesquisa pelo título"/>
+      <div>
+        <Input placeholder="Pesquisa pelo título" />
+      </div>
+      <Login>
+        <Content>
+          <h2>Wagner Rodrigues</h2>
+          <Link to="/">sair</Link>
+        </Content>
 
-        <Login>
-            <Content>
-                <h2>
-                    Wagner Rodrigues
-                </h2>
-                <p>sair</p>
-            </Content>
-
-            <img src="https://github.com/wagnerfelten.png" />
-        </Login>
-
+        <img src="https://github.com/wagnerfelten.png" />
+      </Login>
     </Container>
   );
 }

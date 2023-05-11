@@ -1,5 +1,6 @@
 import {Container, Main, Content, Form } from "./style";
 import { BiLockAlt, BiEnvelope} from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 import Cinema from "../../assets/img/Cinema.png";
 import Input from "../../components/Input";
@@ -22,10 +23,11 @@ export default function Login(){
                     <Input placeholder="E-mail" icon={BiEnvelope}/>
                     <Input placeholder="Senha" icon={BiLockAlt}/>
 
-                    <Button title="Entrar" />
+                    <Button title="Entrar" to="home"/>
                 </Form>
 
-                <a src="/">Criar Conta</a>
+                <Link to="/cadastro">Criar Conta</Link>
+                <Link to="/perfil">Esqueci a senha</Link>
             </Main>
         </Container>
     );

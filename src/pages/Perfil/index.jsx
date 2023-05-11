@@ -10,7 +10,7 @@ export default function Perfil() {
   return (
     <Container>
       <header>
-        <LinkText />
+        <LinkText to="/"/>
       </header>
 
       <Main>

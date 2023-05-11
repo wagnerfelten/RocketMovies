@@ -1,5 +1,6 @@
 import {Container, Main, Content, Form } from "./style";
 import {BiUser, BiLockAlt, BiEnvelope, BiLeftArrowAlt} from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 import Cinema from "../../assets/img/Cinema.png";
 import Input from "../../components/Input";
@@ -23,10 +24,10 @@ export default function Cadastro(){
                     <Input placeholder="E-mail" icon={BiEnvelope}/>
                     <Input placeholder="Senha" type="password" icon={BiLockAlt}/>
 
-                    <Button title="Cadastras" />
+                    <Button title="Cadastras" src="/home"/>
                 </Form>
 
-                <a src="/"><BiLeftArrowAlt /> Voltar para Login</a>
+                <Link to="/"><BiLeftArrowAlt /> Voltar para Login</Link>
             </Main>
         </Container>
     );

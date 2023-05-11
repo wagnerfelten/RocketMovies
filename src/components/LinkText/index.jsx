@@ -4,13 +4,11 @@ import { Link } from "react-router-dom"
 
 
 
-export default function LinkText(){
+export default function LinkText({...rest}){
   return (
-    <Container>
-      <a src="/">
+    <Container {...rest}>
         <BsArrowLeft />
         Voltar
-      </a>
     </Container>
   );
 };

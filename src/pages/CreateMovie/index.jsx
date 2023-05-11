@@ -13,7 +13,7 @@ export default function CreateMovie() {
 
       <Main>
         <Content>
-          <LinkText />
+          <LinkText to="/home"/>
 
           <h1>Novo Filme</h1>
         </Content>

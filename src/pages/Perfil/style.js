@@ -54,7 +54,7 @@ export const Section = styled.section`
     }
 `;
 
-export const Form = styled.div`
+export const Form = styled.form`
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -63,7 +63,7 @@ export const Form = styled.div`
         color: red;
     }
 
-    > button {
+    > a {
         width: 455px;
         height: 60px;
 

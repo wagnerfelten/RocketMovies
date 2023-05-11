@@ -11,6 +11,7 @@ export const Main = styled.main`
   flex-direction: column;
   position: absolute;
   overflow-x: hidden;
+ 
 
   > .inputs {
     display: flex;

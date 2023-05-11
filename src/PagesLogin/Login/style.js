@@ -20,6 +20,7 @@ export const Main = styled.main`
         > a {
             display: flex;
             align-items: center;
+            text-decoration: none;
             justify-content: center;
             margin-top: 48px;
             color: #FF859B;
@@ -57,7 +58,7 @@ export const Form = styled.form`
         color: white;
     }
 
-    >button{
+    >a{
         width: 450px;
         height: 70px;
         font-size: 18px;
@@ -67,7 +68,7 @@ export const Form = styled.form`
         }
     }
 
-    > button:hover{
+    > a:hover{
         transform: scale(1.1);
         background-color: #FF857A;
     }

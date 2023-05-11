@@ -4,6 +4,7 @@ export const Container = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 48px;
 
   padding: 15px;
 
@@ -14,6 +15,10 @@ export const Container = styled.header`
 
   >h1{
   color: #FF859B;
+  }
+
+  > div {
+    width: 550px;
   }
 `;
 
@@ -38,8 +43,9 @@ export const Content = styled.div `
         color: white;
     }
 
-    > p{
+    > a{
       color: #948F99;
       margin-left: 180px;
+      text-decoration: none;
     }
 `;
